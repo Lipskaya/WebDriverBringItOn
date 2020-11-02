@@ -20,10 +20,6 @@ public class PastebinPage {
     public PastebinPage() {
         browser = Browser.getInstance();
     }
-//    public WebDriver getDriver() {
-//        return browser.getWrappedDriver();
-//    }
-
 
     public void openPage(){
         browser.open(PASTEBIN_PAGE_URL);
